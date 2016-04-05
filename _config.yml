@@ -1,28 +1,40 @@
-name: Testing Grounds
-favicon: null
-layout_spectrum: 0.9775100704282522
-typography_spectrum: 0.48238426889292896
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.9775100704282522
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.7602704770397395
+  brandStrength: 0.5099939841311425
+  rhythmicContrast: 0.6691470229998231
   brandColors:
     - '#E0FBFC'
     - '#C2DFE3'
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
-  brandStrength: 0.5099939841311425
-  lightness: 0.058561594458296895
-  saturation: 0.7602704770397395
-  rhythmicContrast: 0.6691470229998231
+  lightness: 0.0585615944582969
 purpose: []
+favicon: null
+name: Testing Grounds
+typography_spectrum: 0.482384268892929
